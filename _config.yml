@@ -5,12 +5,12 @@ reading_time:     false
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: http://gustavop.com.br
+url: http://localhost:4000
 
 # Owner/author information
 owner:
   name:           Gustavo Pereira
-  avatar:         avatar.jpg
+  avatar:         profilepc.jpg
   bio:            "Software Development, DevOps, games and other stuff"
   email:          gustavoper@gmail.com
   # Social networking links used in footer. Update and remove as you like.
