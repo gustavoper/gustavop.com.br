@@ -1,5 +1,5 @@
 title:            Gustavo Pereira
-description:      "Desenvolvimento de Software, DevOps, games e muito mais"
+description:      "Blog do Gustavo Pereira"
 #disqus_shortname: hpstrtheme
 reading_time:     false
 words_per_minute: 200
@@ -16,7 +16,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:  https://twitter.com/gustavosteam      
   facebook:       
-  github:         
+  github:  https://github.com/gustavoper
   stackexchange:  
   linkedin:       
   instagram:      
