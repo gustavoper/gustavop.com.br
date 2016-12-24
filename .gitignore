@@ -3,4 +3,5 @@ _site
 .jekyll-metadata
 config
 Capfile
-.idea/
+.idea
+.DS_Store
