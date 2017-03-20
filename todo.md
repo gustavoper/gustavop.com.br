@@ -9,6 +9,11 @@ To-do
 - organizar os icones (skills)
 - traduzir para o PT-BR
 - colocar bandeiras (idioma) 
+- portifolio
+    - stbl - site
+    - stbl - moodle (install)
+    - stbl - loja (install)
+    - stbl - biblivre (install)
 
 
 
