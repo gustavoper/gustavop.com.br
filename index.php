@@ -143,7 +143,7 @@
                     <strong>Angular 4</strong>
                     <div class="progress">
                         <div class="progress-bar progress-bar-warning" style="width: 38%">
-                            <span class="sr-only-focusable">Basic</span>
+                            <span class="sr-only-focusable">Beginner</span>
                         </div>
                     </div>
                 </div>
