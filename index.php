@@ -15,14 +15,15 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <link href="css/tagcloud.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +42,8 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="#page-top">Gustavo Pereira</a>
@@ -54,7 +56,7 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#social-contact">Social/Contact</a>
+                    <a href="#social-contact">Contact Info</a>
                 </li>
                 <li>
                     <a href="http://medium.com/@gustavoper">Blog</a>
@@ -78,7 +80,7 @@
                 <img class="img-responsive" src="img/mProfilesquare.png" alt="">
                 <div class="intro-text">
                     <h1 class="name">Gustavo Pereira</h1>
-                    <hr class="star-light">
+                    <hr>
                     <span class="skills">Senior PHP Developer, Geek and Drummer</span>
                 </div>
             </div>
@@ -92,40 +94,118 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>My skills</h2>
+                <hr>
             </div>
+
         </div>
         <div class="row">
-            <div id="htmltagcloud">
-                    <span id="0" class="wrd tagcloud0">
-                        <a href="#tagcloud">angular2<span class="freq">&nbsp;(2)</span></a></span> <span id="1" class="wrd tagcloud6"><a
-                            href="#tagcloud">git<span class="freq">&nbsp;(4)</span></a></span> <span id="2"
-                                                                                                     class="wrd tagcloud8"><a
-                            href="#tagcloud">javascript<span class="freq">&nbsp;(5)</span></a></span> <span id="3"
-                                                                                                            class="wrd tagcloud10"><a
-                            href="#tagcloud">linux<span class="freq">&nbsp;(6)</span></a></span> <span id="4"
-                                                                                                       class="wrd tagcloud0"><a
-                            href="#tagcloud">mongodb<span class="freq">&nbsp;(2)</span></a></span> <span id="5"
-                                                                                                         class="wrd tagcloud6"><a
-                            href="#tagcloud">mysql<span class="freq">&nbsp;(4)</span></a></span> <span id="6"
-                                                                                                       class="wrd tagcloud10"><a
-                            href="#tagcloud">php<span class="freq">&nbsp;(6)</span></a></span> <span id="7"
-                                                                                                     class="wrd tagcloud0"><a
-                            href="#tagcloud">prestashop<span class="freq">&nbsp;(2)</span></a></span> <span id="8"
-                                                                                                            class="wrd tagcloud3"><a
-                            href="#tagcloud">silex<span class="freq">&nbsp;(3)</span></a></span> <span id="9"
-                                                                                                       class="wrd tagcloud3"><a
-                            href="#tagcloud">slim<span class="freq">&nbsp;(3)</span></a></span> <span id="10"
-                                                                                                      class="wrd tagcloud3"><a
-                            href="#tagcloud">svn<span class="freq">&nbsp;(3)</span></a></span> <span id="11"
-                                                                                                     class="wrd tagcloud3"><a
-                            href="#tagcloud">zend-framework<span class="freq">&nbsp;(3)</span></a></span> <span
-                        id="12" class="wrd tagcloud3"><a href="#tagcloud">zfce-5.5<span
-                                class="freq">&nbsp;(3)</span></a></span></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5">
 
+                <div class="alert alert-info" style="margin:0px">
+                    <strong>PHP 5.x / 7.x</strong>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" style="width: 85%">
+                            <span class="sr-only-focusable"><strong>Zend Certified PHP Engineer (5.5)</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-success"  style="margin:0px">
+                    <strong>Zend Framework 1 / Zend Framework 2</strong>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" style="width: 65%">
+                            <span class="sr-only-focusable">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-warning"  style="margin:0px">
+                    <strong>Other PHP Frameworks/CMS</strong>
+                    <div class="progress">
+
+                        <div class="progress-bar progress-bar-info" style="width: 40%">
+                            <span class="sr-only-focusable">Slim</span>
+                        </div>
+                        <div class="progress-bar progress-bar-danger" style="width: 18%">
+                            <span class="sr-only-focusable">Prestashop</span>
+                        </div>
+                        <div class="progress-bar progress-bar" style="width: 20%">
+                            <span class="sr-only-focusable">Wordpress</span>
+                        </div>
+                        <div class="progress-bar progress-bar-success" style="width: 22%">
+                            <span class="sr-only-focusable">Silex</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-lightgray"  style="margin:0px">
+                    <strong>Angular 4</strong>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" style="width: 38%">
+                            <span class="sr-only-focusable">Basic</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-5">
+
+
+                <div class="alert alert-warning" style="margin:0px">
+                    <strong>Javascript (Jquery / Typescript)</strong>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" style="width: 65%">
+                            <span class="sr-only-focusable">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-gray" style="margin:0px">
+                    <strong>Versioning</strong>
+                    <div class="progress">
+
+                        <div class="progress-bar progress-bar-info" style="width: 50%">
+                            <span class="">GIT</span>
+                        </div>
+                        <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 50%">
+                            <span class="">SVN </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="alert alert-danger" style="margin:0px">
+                    <strong>Linux</strong>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="width: 80%;"> Advanced
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="alert alert-success" style="margin:0px">
+                    <strong>Databases</strong>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" style="width: 60%">
+                            <span class="sr-only-focusable">MySQL</span>
+                        </div>
+                        <div class="progress-bar progress-bar-success" style="width: 20%">
+                            <span class="sr-only-focusable">MongoDB</span>
+                        </div>
+                        <div class="progress-bar" style="width: 20%">
+                            <span class="sr-only-focusable">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
         </div>
     </div>
 </section>
-
 
 
 <!-- About Section -->
@@ -134,26 +214,28 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>About</h2>
-                <hr class="star-light">
+                <hr>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <p>Hello there, my name is Gustavo! I was born in 1984, born and raised in Brazil. I am a software developer since 2005, working for several companies, helping them to achieve goals and make some real profit. I'm a passionate developer, so I just love what I do. </p>
+                <p>Hello there, my name is Gustavo! I was born in 1984, born and raised in Brazil. I am a software
+                    developer since 2005, working for several companies, helping them to achieve goals and make some
+                    real profit. I'm a passionate developer, so I just love what I do. </p>
             </div>
             <div class="col-lg-4">
-                <p>Nowadays I'm a PHP Developer, writing some code for food, coffee and fun. Always looking at new technologies and always improving my code, trying to learn and use code standards everyday.</p>
+                <p>Nowadays I'm a PHP Developer, writing some code for food, coffee and fun. Always looking at new
+                    technologies and always improving my code, trying to learn and use code standards everyday.</p>
 
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="#" class="btn btn-lg btn-outline">
+                <a href="https://www.linkedin.com/in/gustavoperphp/" class="btn btn-lg btn-outline">
                     <i class="fa fa-download"></i> Go to my Linkedin Profile
                 </a>
             </div>
         </div>
     </div>
 </section>
-
 
 
 <!-- Footer -->
@@ -172,16 +254,20 @@
                     <h3>Where you can find me</h3>
                     <ul class="list-inline">
                         <li>
-                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i
+                                        class="fa fa-fw fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i
+                                        class="fa fa-fw fa-google-plus"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i
+                                        class="fa fa-fw fa-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="btn-social btn-outline"><span class="sr-only">LinkedIn</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            <a href="#" class="btn-social btn-outline"><span class="sr-only">LinkedIn</span><i
+                                        class="fa fa-fw fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -215,7 +301,6 @@
 
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
 
 
 <!-- Theme JavaScript -->
